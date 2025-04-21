@@ -1,0 +1,127 @@
+/* Custom CSS for NLP Questionnaire Application */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+/* Card styles */
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+}
+
+.card-header {
+    padding: 1.25rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Question styles */
+.question-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.question-container:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.question-number {
+    color: #6c757d;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.question-text {
+    font-weight: 500;
+}
+
+/* Form styles */
+.form-check {
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.form-check:hover {
+    background-color: #f8f9fa;
+}
+
+.form-check-label {
+    cursor: pointer;
+    padding-left: 0.5rem;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4a6eb5;
+    border-color: #4a6eb5;
+}
+
+.btn-primary:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Progress bar */
+.progress {
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    margin: 1.5rem 0;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    background-color: #4a6eb5;
+    transition: width 0.6s ease;
+}
+
+/* Results page */
+.display-4 {
+    font-weight: 700;
+    color: #4a6eb5;
+}
+
+table.table {
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.25rem;
+    }
+    
+    .form-check {
+        margin-left: 0.5rem;
+    }
+}
