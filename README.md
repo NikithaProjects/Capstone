@@ -1,6 +1,12 @@
+# Project Introduction
+
 Representational Systems Quiz App
 This project is a web application built with Django that allows users to take a quiz to determine their dominant representational system (Visual, Auditory, Kinesthetic, Olfactory, Gustatory, Auditory Digital) based on their answers. The application provides an interface for users to take the quiz and an admin panel for managing quiz content and viewing results.
 
+## Table of Contents
+  - [Features](#Features)
+  - [TechnologiesUsed](TechnologiesUsed)
+  - [#SetUpAndInstallation](#SetUpAndInstallation)
 Features
 Quiz Interface: A user-friendly interface to take the quiz.
 Category Selection: Option to filter questions by category (if implemented in the frontend).
